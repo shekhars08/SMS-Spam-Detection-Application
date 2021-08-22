@@ -15,6 +15,6 @@ One of use cases in NLP which is Text Classification. Here it is the process of 
 <p float="center" text-align = "center">
   <br><img src="https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/static/img1.png"/></br>
   <img src="https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/static/img2.png" height = "250"  align = "center" />
-  <img src="https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/static/img3.png" height = "250"  align = "center" />
+  <img src="https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/static/img3.png" width = "300" height = "250"  align = "center" />
   
  </p>
