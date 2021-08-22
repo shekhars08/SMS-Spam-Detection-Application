@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>HOME PAGE</title>
+	
+	
+	<style>
+		*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.header {	position: relative;
+			top:0;	
+			margin:0px;
+			z-index: 1;
+			left: 0px;
+			right: 0px;
+			position: fixed;
+			background-color: black ;
+			color: black;
+			box-shadow: 0px 8px 2px black;
+			overflow: hidden;
+			font-family: 'sans-serif';
+			font-size: 20px;
+			width: 100%;
+			height:10%;
+			text-align: right;
+		}
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url('static/background.jpg');
+	background-size: auto;
+	background-position: center;
+}
+.navbar{
+	position: absolute;
+	float: right;
+	align-items: right;
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar ul li{
+	float: right;
+	align-items: right;
+	list-style: none;
+	display: inline-block;
+}
+.navbar ul li a{
+	display: inline-block;
+	margin-left: 100%;
+	align-content: right;
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+.navbar ul li a:hover {
+	display: inline-block;
+  background-color: #ddd;
+  color: red;
+}
+
+.navbar ul li a.active {
+	display: inline-block;
+  background-color: #565961;
+  color: white;
+  font-style: bold;
+}
+
+
+
+.nlp {
+	align-items: center;
+	width: 50%;
+	height: 40%;
+	margin-top: 120px;
+	margin-left: 400px;
+	
+}
+.content{
+	padding: 4%;
+	margin-left: 4%;
+	margin-right: 4%;
+	color: floralwhite;
+	text-align: center;
+	background: cross-fade(12);
+	box-shadow: #fff;
+
+}
+	</style>
+
+</head>
+<body>
+		
+	
+		<div class="banner">
+		<div class= "header" >
+		<div class="navbar" style="text-align: right;float: right;">
+			<ul>
+				<li><a style="float: right;" href="{{ url_for('home')}}">APPLICATION</a></li>
+				<li><a style="float: right;" href="{{ url_for('intro')}}">HOME</a></li>
+				
+			</ul>
+		</div>
+		</div>
+		<div>
+			<img src="{{url_for('static', filename='nlp.jpg')}}" class = "nlp">
+		</div>
+		<div class = "content">
+			<p style="font-size: 20px; font-family:Monospace";><b>Computers and machines are great at working with tabular data or spreadsheets. 
+				However, as human beings generally communicate in words and sentences, not in the form of tables.
+				Much information that humans speak or write is unstructured. So it is not very clear for computers to 
+				interpret such. In natural language processing (NLP), the goal is to make computers understand the 
+				unstructured text and retrieve meaningful pieces of information from it. 
+				Natural language Processing (NLP) is a subfield of artificial intelligence, in which its depth involves 
+				the interactions between computers and humans.</b></p>
+		</div>
+	</div>
+</body>
+</html>
