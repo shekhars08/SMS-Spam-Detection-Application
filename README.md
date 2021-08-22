@@ -10,3 +10,8 @@ One of use cases in NLP which is Text Classification. Here it is the process of 
 
 # Dataset
 [Dataset](https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/spams.csv)
+
+# Application
+<p float="center" text-align = "center">
+  <img src="https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/static/nlpImg.png" width=600 height="300" align = "center" />
+ </p>
