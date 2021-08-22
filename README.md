@@ -1,5 +1,8 @@
 <h1>SMS-Spam-Detection-Application Using NLP</h1>
 <h4>Natural Language Processing or NLP is a field of artificial intelligence that gives the machines the ability to read, understand and derive meaning from human languages.</h4>
+<p float="center">
+  <img src="https://github.com/shekhars08/Delhi-Tour-Guide/blob/main/Images/img1.jpeg" width=290 height="500" />
+ </p>
 
 <h4>We daily writes huge amount of information, but there is a problem: one person may generate hundreds or thousands of words in a declaration, each sentence with its corresponding complexity. If you want to scale and analyze several hundreds, thousands or millions of people or declarations in a given geography, then the situation is unmanageable.
 Data generated from conversations, declarations or even tweets are examples of unstructured data. Unstructured data doesn’t fit neatly into the traditional row and column structure of relational databases, and represent the vast majority of data available in the actual world. It is messy and hard to manipulate.
