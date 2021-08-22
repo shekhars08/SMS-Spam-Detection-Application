@@ -8,5 +8,5 @@
 Data generated from conversations, declarations or even tweets are examples of unstructured data. Unstructured data doesn’t fit neatly into the traditional row and column structure of relational databases, and represent the vast majority of data available in the actual world. It is messy and hard to manipulate.
 One of use cases in NLP which is Text Classification. Here it is the process of assigning tags or categories to text according to its content. It’s one of the fundamental tasks in Natural Language Processing (NLP) with broad applications such as sentiment analysis, topic labeling, spam detection, and intent detection.</h4>
 
-#Dataset
+# Dataset
 ![](https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/spams.csv)
