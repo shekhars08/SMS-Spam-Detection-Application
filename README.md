@@ -1,6 +1,6 @@
 <h1>SMS-Spam-Detection-Application Using NLP</h1>
 <h4>Natural Language Processing or NLP is a field of artificial intelligence that gives the machines the ability to read, understand and derive meaning from human languages.</h4>
-<p float="center">
+<p float="center" text-align = "center">
   <img src="https://github.com/shekhars08/SMS-Spam-Detection-Application/blob/master/static/nlpImg.png" width=600 height="300" align = "center" />
  </p>
 
